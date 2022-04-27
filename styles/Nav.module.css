@@ -1,0 +1,31 @@
+.container {
+  max-width: 1200px;
+  min-width: 1200px;
+  margin: auto;
+  padding: 10px;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+  
+.colNav{
+  display: flex;
+}
+  
+.cartButton{
+  border-radius: 15px;
+}
+
+  @media (max-width: 650px){
+    .container{
+      max-width: 500px;
+      min-width: 400px;
+    }
+  
+    .colNav{
+      flex-direction: row;
+    }
+  }

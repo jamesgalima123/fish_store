@@ -1,0 +1,20 @@
+.footContainer {
+    min-width: 1200px;
+    width: 100%;
+    min-height: 20vh;
+    margin: auto;
+    text-align: center;
+    background-color: #ebebeb;
+    padding: 60px;
+}
+  
+.contactButton {
+    margin: 0;
+}
+  
+  @media (max-width: 650px){
+    .footContainer{
+      max-width: 500px;
+      min-width: 400px;
+    }
+  }
